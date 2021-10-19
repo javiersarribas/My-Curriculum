@@ -1,0 +1,101 @@
+@media(min-width:768px){
+	
+		/* Set Container Settings */
+		
+		.container-1{
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
+		/* Change here
+		align-items:flex-start; --- Aligns vertically up
+		align-items:flex-end;   --- Aligns vertically down
+		align-items:center;
+		
+		flex-direction:column;  --- Converts it into columns
+		*/
+		}
+	
+	.container-2{
+		display:flex;
+		/*Kind of justify-content
+		justify-content:flex-end;
+		justify-content:center;
+		justify-content:space-between;
+		justify-content:space-around;    ---   Adds margins on the side
+		*/
+		justify-content:center;
+		flex-wrap:wrap;
+		}
+	}
+	
+	.container-1 div, .container-2 div{
+		border:1px #666 solid;
+		padding:10px;
+	}
+	
+	/* Set box Settings */
+	
+	.box-1{
+		flex:1;
+		order:1;
+	}
+	
+	.box-2{
+		flex:1;
+		order:2;
+	}
+	
+	.box-3{
+		flex:1;
+		order:3;
+	}
+	
+	/* Set physical Settings */
+h1{
+	color:green;
+	font-family:Calibri;
+	text-shadow: 1px 2px #ff0000;
+}
+
+h2{
+	color:orange;
+	font-family:Times New Roman;
+	text-shadow: 1px 2px #ff0000;	
+}
+
+h3{
+	color:blue;
+	font-family:Georgia;
+	text-shadow: 1px 2px #ff0000;
+}
+
+body{
+	background-color:beige;
+}
+
+p, li{
+	color:red;
+	font-family:Calibri;
+}
+
+.highlight{
+	background-color:pink;
+}
+
+.bottomline{
+	text-decoration:underline;
+	font-style:italic;
+	font-weight:bold;
+}
+
+	a{
+		font-family:impact;
+}
+	
+.centered{
+	text-align: center;
+}
+
+.main-wrapper{
+	position: absolute;
+}
